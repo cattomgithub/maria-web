@@ -1,3 +1,4 @@
+![](https://cattom.oss-cn-shenzhen.aliyuncs.com/uploads%2F2021%2F08%2F17%2FahZdWjU1_300.png?Expires=1629212205)
 # Maria - 鞠亚
 ![](https://img.shields.io/badge/release-v1.0.0-red.svg?style=for-the-badge&logo=appveyor)
 
@@ -121,23 +122,21 @@
 └── README.md
 ```
 ## 服务架构
-```
-├── Github Page
-│   └── Start (https://start.cattom.site/)
-├── 1-Azure-HK
-│   ├── Gitea (https://git.cattom.site/)
-│   ├── Webhook (https://webhook-hk.cattom.site/)
-│   ├── Homepage (https://cattom.site/)
-│   ├── Status - UptimeRobot (https://status.cattom.site/)
-│   ├── Blog - Hugo (https://blog.cattom.site/)
-│   ├── Get.acme 【get.acme.sh 镜像，方便中国大陆内的机器安装】【目前唯一公共服务】  (https://get.acme.cattom.site/)
-│   └── Monitor - Grafana (https://monitor.cattom.site/)
-│       └── Prometheus
-└── 2-Qcloud-Guangzhou
-    ├── Comment - Wline (https://comment.cattom.site:83/)
-    ├── Game - Flatris (https://game.cattom.site:82/)
-    └── Cloud - Cloudreve (https://cloud.cattom.site:81/)
-```
+- Github Page
+  - Start (https://start.cattom.site/)
+- 1-Azure-HK
+  - Gitea (https://git.cattom.site/)
+  - Webhook (https://webhook-hk.cattom.site/)
+  - Homepage (https://cattom.site/)
+  - Status - UptimeRobot (https://status.cattom.site/)
+  - Blog - Hugo (https://blog.cattom.site/)
+  - Get.acme 【get.acme.sh 镜像，方便中国大陆内的机器安装】【目前唯一公共服务】(https://get.acme.cattom.site/)
+  - Monitor - Grafana (https://monitor.cattom.site/)
+    - Prometheus
+- 2-Qcloud-Guangzhou
+  - Comment - Wline (https://comment.cattom.site:83/)
+  - Game - Flatris (https://game.cattom.site:82/)
+  - Cloud - Cloudreve (https://cloud.cattom.site:81/)
 ## 依赖
 - Microsoft Azure
 - 腾讯云 轻量应用服务器
