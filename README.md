@@ -1,6 +1,8 @@
-![](https://cattom.oss-cn-shenzhen.aliyuncs.com/uploads%2F2021%2F08%2F17%2FahZdWjU1_300.png?Expires=1629212205)
+![](https://static.cattom.site/img/300.png?x-oss-process=style/webp)
 # Maria - 鞠亚
-![](https://img.shields.io/badge/release-v1.0.0-red.svg?style=for-the-badge&logo=appveyor)
+![](https://img.shields.io/badge/release-v1.1.0-red.svg?style=for-the-badge)
+![](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
+![](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
 鞠亚，一个基础服务支持系统。
 
@@ -29,8 +31,7 @@
 - 自动更新文件
 
 ## 即将实现的功能
-- [x] 利用脚本文件实现全自动部署
-- [x] 基于 `acme.sh` 的证书自动部署
+- [ ] 自建邮局
 - [ ] 证书健康监控
 - [ ] 考虑采用更轻量的 Web 程序，如 `Caddy`
 
@@ -43,6 +44,7 @@
 ```
 .
 ├── 1-Azure-HK
+│   ├── deploy.sh
 │   ├── docker-compose.yml
 │   ├── Dockerfile-Nginx
 │   ├── Dockerfile-Prometheus
@@ -53,7 +55,7 @@
 │   ├── homepage
 │   │   ├── index.html
 │   │   └── README.md
-│   ├── maria.sh
+│   ├── manage.sh
 │   ├── nginx
 │   │   ├── conf.d
 │   │   │   ├── blog.conf
@@ -93,9 +95,10 @@
 │   │   ├── cloudreve
 │   │   ├── conf.ini
 │   │   └── README.md
+│   ├── deploy.sh
 │   ├── docker-compose.yml
 │   ├── Dockerfile
-│   ├── maria.sh
+│   ├── manage.sh
 │   ├── nginx
 │   │   ├── conf.d
 │   │   │   ├── cloud.conf
@@ -119,7 +122,8 @@
 │   │   └── test.conf
 │   ├── rewrite
 │   └── test.conf
-└── README.md
+├── README.md
+└── update.sh
 ```
 ## 服务架构
 - Github Page
